@@ -3,11 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index Page</title>
+    <title> 메인화면 </title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <h1>Test!</h1>
-    <hr>
-    <h3>LOL!!!</h3>
-</body>
+    <div class="wrap">
+        <ul class="tabs">
+    <!--       rel은 관계라는 뜻입니다. -->
+            <li class="active" rel="tab1"> 탭메뉴 1 </li>
+            <li rel="tab2">텝메뉴 2</li>
+            <li rel="tab3">텝메뉴 3</li>
+        </ul>
+        <div class="tab_wrap">
+            <div id="tab1" class="tab_content">텝1의 내용</div>
+            <div id="tab2" class="tab_content">2번탭 내용</div>
+            <div id="tab3" class="tab_content">3번탭 내용</div>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    
+    <script type="text/javascript">
+        $("document").ready(function() {
+    //attr 현재속성
+           
+            $(".tab_content").hide();
+            $(".tab_content").eq(0).show();
+           
+           
+            $("ul.tabs li").click(function(){
+                $("ul.tabs li").removeClass("active")
+                $(this).addClass("active")
+                $(".tab_content").hide();
+                var tabid = $(this).attr("rel");
+                $("#"+tabid).fadeIn();
+            })
+        });
+    </script>
+    
+    </body>
+
 </html>
