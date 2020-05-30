@@ -1,0 +1,41 @@
+#th{
+    font-size: 15px;
+    background-color:  #C1ACA0;
+    color: white;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+#td{
+    border: 1px solid #C1ACA0;
+    padding: 5px;
+    font-size: 12px;
+}
+
+div.box {
+    text-align: center;
+    width: 390px;
+    height: 70px;
+    background-color: #C1ACA0;
+    border: 1px solid #C1ACA0;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+#reservation {
+    margin-left: 335px;
+    border: 1px solid #C1ACA0;
+    background-color: rgba(0, 0, 0, 0);
+    color: #C1ACA0;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+#reservation:hover {
+    border: 1px solid #C1ACA0;
+    background-color: #C1ACA0;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+}
