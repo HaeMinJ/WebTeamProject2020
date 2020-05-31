@@ -24,7 +24,9 @@ section {
 article {
     background-color: white; margin-left: 20px; margin-right: 20px;
 }
-
+h1 {
+    color: rgb(109, 84, 54); font-size: 30px;
+}
 
 th,td{
     padding: 15px;
