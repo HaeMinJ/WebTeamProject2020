@@ -1,0 +1,62 @@
+body{background-color:  #C1ACA0;}
+nav {
+    background-image: url("main.jpg");
+    background-repeat: no-repeat;
+    background-size:2000px 1000px;
+    opacity: 0.5;
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+nav {
+    height: 300px; text-align: center
+}
+div {
+    display: inline-block;  ; font-size: 30px; width: 150px; text-align: center;
+}
+
+div>a {
+    color:white;
+}
+
+div:hover {
+    background:black;
+}
+h5{
+    position: absolute;
+    width: 226px;
+    height: 82px;
+    left: 10px;
+    top: -100px;
+
+    font-family: Yaldevi Colombo SemiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 85px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #674938;
+}
+h6{
+    position: absolute;
+    width: 226px;
+    height: 82px;
+    left: 100px;
+    top: -50px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 59px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+
+    color: black;
+}
