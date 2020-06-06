@@ -88,6 +88,11 @@ span {
     color: #FFFFFF
 }
 
+#currentpage
+{
+    background: rgba(46, 44, 44, 0.8);
+}
+
 span>a {
     color:white;
     text-decoration: none;
