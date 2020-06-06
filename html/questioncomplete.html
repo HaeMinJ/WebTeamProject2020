@@ -3,32 +3,38 @@
 <head>
     <meta charset="utf-8">
     <title>FAQ</title>
-    <link rel="stylesheet" href="contents.css">
+    <link rel="stylesheet" href="../css/samepart.css">
+
     <style>
-        img {display: block; margin-left: auto; margin-right: auto;}
-        p { text-align: center;}
+        h1 {color: rgb(109, 84, 54); font-size: 30px;}
+        .button {font-size: 20px; padding: 10px; width: 161px; height: 56px; float: right;}
+        img { display : block ; margin : 0 auto ;}
+        p {text-align: center; font-size: 30px;}
     </style>
 </head>
 <body>
-    <h5>과기대</h5>
-    <h6>보드게임</h6>
-    <nav>
-        <br><br><br><br><br>
-        <div><a href="#">게임목록</a></div>
-        <div><a href="#">음료</a></div> 
-        <div><a href="#">방문예약</a></div> 
-        <div><a href="FAQ.html">FAQ</a></div>
-        <div><a href="event.html">이벤트</a></div> 
-        <div><a href="#">오시는길</a></div>
-    </nav>
+    <header>
+        <p id="ghak">과기대</p>
+        <p id="game">보드게임</p>
+        <p id="current">FAQ</p>
+        <nav>
+            <span><a href="#">게임목록</a></span>
+            <span><a href="../html/drink.html">음료</a></span>
+            <span><a href="reservation.html">방문예약</a></span>
+            <span id="currentpage">FAQ</span>
+            <span><a href="../html/event.html">이벤트</a></span>
+            <span><a href="../html/WayToCome.html">오시는 길</a></span>
+        </nav>
+    </header>
+    <br>
     <section>
         <article>
         <h1>질문하기</h1>
-        <p><img src="질문등록완료.PNG" width="1000px" height="250px" align="center"></p>
+        <img src="../assets/check.PNG" width="100" height="100" alt="질문등록완료">
+        <P> 질문이 </P>
+        <p style="color: rgb(36, 182, 250);"> 등록되었습니다!</P>
+        <input type="button" class="button" name="btn3" value="목록으로"  style="float: right;" onClick="location.href='FAQ.html'">
         </article>
     </section>
-    <footer>
-        <input type="button" class="button" name="btn3" value="목록으로"  style="float: right;" onClick="location.href='FAQ.html'">
-    </footer>
 </body>
 </html>
