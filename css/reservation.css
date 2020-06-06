@@ -1,3 +1,8 @@
+
+table{
+    margin:auto;
+}
+
 #th{
     font-size: 15px;
     background-color:  #C1ACA0;
@@ -21,16 +26,19 @@ div.box {
     color: white;
     border-radius: 30px;
     padding: 20px;
+    margin: auto;
 }
 
-#reservation {
-    margin-left: 335px;
+#reservation{
+    margin:right;
     border: 1px solid #C1ACA0;
     background-color: rgba(0, 0, 0, 0);
     color: #C1ACA0;
     padding: 5px;
     border-radius: 7px;
 }
+
+
 
 #reservation:hover {
     border: 1px solid #C1ACA0;
