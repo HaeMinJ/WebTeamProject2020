@@ -26,6 +26,13 @@ article {
 }
 h1 {
     color: rgb(109, 84, 54); font-size: 30px;
+    position: absolute;
+    left: 50px;
+}
+table {
+    position: absolute;
+    left: 40px;
+    top: 400px;
 }
 
 th,td{
@@ -77,4 +84,22 @@ text-align: center;
 
 color: black;
 
+}
+h3 {
+    position: absolute;
+width: 226px;
+height: 82px;
+left: 50px;
+top: 180px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 59px;
+display: inline-block;
+align-items: center;
+text-align: center;
+
+color:white;
 }
