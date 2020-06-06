@@ -3,36 +3,44 @@
 <head>
     <meta charset="utf-8">
     <title>Question</title>
-    <link rel="stylesheet" href="contents.css">
+    <link rel="stylesheet" href="../css/samepart.css">
     <style>
-        
+        h1 {color: rgb(109, 84, 54); font-size: 30px;}
+        .button {font-size: 20px; padding: 10px; width: 161px; height: 56px; float: right;}
+        textarea {width: 100%;}
+        td {text-align: center;}
     </style>
 </head>
 <body>
-    <h5>과기대</h5>
-    <h6>보드게임</h6>
-    <nav>
-        <br><br><br><br><br>
-        <div><a href="#">게임목록</a></div>
-        <div><a href="#">음료</a></div> 
-        <div><a href="reservation.html">방문예약</a></div> 
-        <div><a href="FAQ.html">FQA</a></div>
-        <div><a href="event.html">이벤트</a></div> 
-        <div><a href="#">오시는길</a></div>
-    </nav>
-    <h3>FAQ</h3>
+    <header>
+        <p id="ghak">과기대</p>
+        <p id="game">보드게임</p>
+        <p id="current">FAQ</p>
+        <nav>
+            <span><a href="#">게임목록</a></span>
+            <span><a href="../html/drink.html">음료</a></span>
+            <span><a href="reservation.html">방문예약</a></span>
+            <span id="currentpage">FAQ</span>
+            <span><a href="../html/event.html">이벤트</a></span>
+            <span><a href="../html/WayToCome.html">오시는 길</a></span>
+        </nav>
+    </header>
+    <br>
     <section>
         <article>
         <h1>질문하기</h1>
-        <form>
-            <label>제목
-            <textarea name="ta1" rows="20"cols="150" placeholder="문의 사항을 입력해 주세요"></textarea>
-        </label>
-        </form>
+        <table border="1" width="1650">
+            <tr bgcolor="gray" > 
+                <td><strong> 제목 </strong></td>
+                <td> <textarea rows="2"></textarea></td>
+            </tr>
+            <tr> 
+                <td><strong> 내용 </strong></td>
+                <td> <textarea rows="10"></textarea></td>
+            </tr>
+        </table>
+        <input type="button" class="button" name="btn2" value="질문하기"  style="float: right;" onClick="location.href='questioncomplete.html'">
         </article>
     </section>
-    <footer>
-        <input type="button" class="button" name="btn2" value="질문하기"  style="float: right;" onClick="location.href='questioncomplete.html'">
-    </footer>
 </body>
 </html>

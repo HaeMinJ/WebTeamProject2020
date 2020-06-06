@@ -3,27 +3,33 @@
 <head>
     <meta charset="utf-8">
     <title>FAQ</title>
-    <link rel="stylesheet" href="contents.css">
+    <link rel="stylesheet" href="../css/samepart.css">
     <style>
-        
+        td {text-align: center;}
+        th,td{padding: 15px;}
+        h1 {color: rgb(109, 84, 54); font-size: 30px;}
+        .button {font-size: 20px; padding: 10px; width: 161px; height: 56px; float: right;}
     </style>
 </head>
 <body>
-    <h5>과기대</h5>
-    <h6>보드게임</h6>
-    <nav>
-        <br><br><br><br><br>
-        <div><a href="#">게임목록</a></div>
-        <div><a href="#">음료</a></div> 
-        <div><a href="reservation.html">방문예약</a></div> 
-        <div><a href="event.html">이벤트</a></div> 
-        <div><a href="#">오시는길</a></div>
-    </nav>
-    <h3>FAQ</h3>
+    <header>
+        <p id="ghak">과기대</p>
+        <p id="game">보드게임</p>
+        <p id="current">FAQ</p>
+        <nav>
+            <span><a href="#">게임목록</a></span>
+            <span><a href="../html/drink.html">음료</a></span>
+            <span><a href="reservation.html">방문예약</a></span>
+            <span id="currentpage">FAQ</span>
+            <span><a href="../html/event.html">이벤트</a></span>
+            <span><a href="../html/WayToCome.html">오시는 길</a></span>
+        </nav>
+    </header>
+    <br>
     <section>
         <article>
         <h1>자주하시는 질문</h1>
-        <table border="1" width="1400">
+        <table border="1" width="1650">
             <tr bgcolor="gray" > 
                 <td><strong> 번호 </strong></td>  <td><strong> 제목 </strong></td>  <td><strong> 질문날짜 </strong></td>
             </tr>
@@ -42,12 +48,9 @@
             <tr>
                 <td  ><strong> 1 </strong></td>  <td><strong> 운영시간 문의</strong></td>  <td ><strong> 2020-4-10 </strong></td>           
             </tr>
-            
+        <input type="button" class="button" name="btn1" value="질문하기"  onClick="location.href='question.html'">
         </table>
         </article>
     </section>
-    <footer>
-        <input type="button" class="button" name="btn1" value="질문하기"  style="float: right;" onClick="location.href='question.html'">
-    </footer>
 </body>
 </html>
