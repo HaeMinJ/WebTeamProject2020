@@ -2,45 +2,139 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1440px,height = 1024px, initial-scale=1.0">
     <title> 메인화면 </title>
     <link rel="stylesheet" href="style.css">
-    
 </head>
 <body>
-    <div class="wrap">
-        <ul class="tabs">
-    <!--       rel은 관계라는 뜻입니다. -->
-            <li class="active" rel="tab1"> 탭메뉴 1 </li>
-            <li rel="tab2">텝메뉴 2</li>
-            <li rel="tab3">텝메뉴 3</li>
-        </ul>
-        <div class="tab_wrap">
-            <div id="tab1" class="tab_content">텝1의 내용</div>
-            <div id="tab2" class="tab_content">2번탭 내용</div>
-            <div id="tab3" class="tab_content">3번탭 내용</div>
+    <header>
+        <img id="text_header" src="../assets/main_text.svg" alt="">
+        <img id="rect1" src="../assets/rect1.svg" alt="">
+        <img id="rect2" src="../assets/rect2.svg" alt="">
+        <nav id="tab">
+            <span id="tab_menu">게임목록</span>
+            <span id="tab_menu">신규입고</span>
+            <span id="tab_menu">방문예약</span>
+            <span id="tab_menu">FAQ</span>
+            <span id="tab_menu">이벤트</span>
+            <span id="tab_menu">오시는 길</span>
         </div>
-    </div>
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    
-    <script type="text/javascript">
-        $("document").ready(function() {
-    //attr 현재속성
-           
-            $(".tab_content").hide();
-            $(".tab_content").eq(0).show();
-           
-           
-            $("ul.tabs li").click(function(){
-                $("ul.tabs li").removeClass("active")
-                $(this).addClass("active")
-                $(".tab_content").hide();
-                var tabid = $(this).attr("rel");
-                $("#"+tabid).fadeIn();
-            })
-        });
-    </script>
-    
-    </body>
+            
+       
+        
+    </header>
+    <article>
 
+    </article>
+    <aside>
+        <div id="aside_first">
+            <span class="aside_text">공지사항</span>
+            <span class="aside_text">신규입고</span>    
+        </div>
+        <span class="vl"></span>
+    </aside>
+   
+</body>
+<style>
+    
+</style>
+<footer>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+</footer>
+<style>
+    
+    #aside_first{
+        line-height: 71px;
+    }
+    .aside_text{
+        position: relative;
+        display: inline-block;
+        width: 190px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+    }
+    #vertical_line{
+     
+  border-left: 1px solid black;
+  height: 70px;
+
+    }
+    article{
+        
+        position: absolute;
+width: 1061px;
+height: 549px;
+left: -13px;
+top: 393px;
+
+background: url(../assets/image.png);
+    }
+    aside{
+        position: absolute;
+width: 405px;
+height: 549px;
+left: 1047px;
+top: 393px;
+
+background: #FFFFFF;
+    }
+    body{
+        background-color:  #C1ACA0;
+        position: relative;
+    }
+    #text_header{
+        position: absolute;
+        width: 478px;
+        height: 181px;
+        left: 455px;
+        top: 78px;
+    }
+    #rect1{
+        position: absolute;
+        width: 265px;
+        height: 266px;
+        left: 80px;
+        top: 41px;
+    }
+    #rect2{
+        position: absolute;
+        width: 252.1px;
+        height: 232.73px;
+        left: 1079px;
+        top: -32px;
+    }
+    #tab{
+        position: absolute;
+        width: 1440px;
+        height: 75px;
+        left: 0px;
+        top: 270px;
+        line-height: 75px;
+        background: #FFFFFF;
+
+    }
+    #tab_menu{
+        position: relative;
+        width: 212px;
+        height: 74px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        align-items: center;
+        text-align: center;
+        display: inline-block;
+
+        color: #000000;
+    }
+    
+    
+</style>
 </html>
