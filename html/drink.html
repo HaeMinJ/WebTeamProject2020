@@ -3,25 +3,84 @@
     <head>
         <meta charset="utf-8">
         <title>음료</title>
-        <link rel="stylesheet" href="page.css">
+        <link rel="stylesheet" href="../css/samepart.css">
+        <link rel="stylesheet" href="../css/drink.css">
     </head>
     <body>
-        <h5>과기대</h5>
-        <h6>보드게임</h6>
-        <nav>
-            <br><br><br><br><br>
-            <div><a href="#">게임목록</a></div>
-            <div><a href="#drink.html">음료</a></div> 
-            <div><a href="#">방문예약</a></div> 
-            <div><a href="event.html">이벤트</a></div> 
-            <div><a href="#WayToCome.html">오시는길</a></div>
-            <br><br><br><br><br>
-        </nav>
+        <header>
+            <p id="ghak">과기대</p>
+            <p id="game">보드게임</p>
+            <p id="current">음료</p>
+            <nav>
+                <span><a href="#">게임목록</a></span>
+                <span><a href="./drink.html">음료</a></span>
+                <span id="currentpage">방문예약</span>
+                <span><a href="./FAQ.html">FAQ</a></span>
+                <span><a href="./event.html">이벤트</a></span>
+                <span><a href="./WayToCome.html">오시는 길</a></span>
+            </nav>
+        </header>
         <br>
         <section>
-            <center>
-                <img src="drink.png" width="1000" height="400" alt="음료">
-            </center>
+            <table>
+                <tr>
+                    <th colspan="2">Coffee</th>
+                    <th colspan="2">Non Coffee</th>
+                    <th colspan="2">Smoothie</th>
+                    <th>Beer</th>
+                    <td class="price">기본</td>
+                    <td class="price">빅사이즈</td>
+                </tr>
+                <tr>
+                    <td>아메리카노(<span class="hot">hot</span>,<span class="ice">ice</span>)</td><td class="price">3.8</td>
+                    <td>유기농잎차(<span class="hot">hot</span>,<span class="ice">ice</span>)</td><td class="price">4.3</td>
+                    <td>과일 스무디(딸기,키위/망고/블루베리)</td><td class="price">5.0</td>
+                    <td>카스 / 클라우드</td><td class="price">5.0</td><td class="price">6.0</td>
+                </tr>
+                <tr>
+                    <td>카페라떼(<span class="hot">hot</span>,<span class="ice">ice</span>)</td><td class="price">4.3</td>
+                    <td>홍차(<span class="hot">hot</span>,<span class="ice">ice</span>)</td><td class="price">4.3</td>
+                    <td>코코넛커피스무디 / 모카스무디 / 카라멜스무디</td><td class="price">5.5</td>
+                    <td>버드와이저 / 호가든</td><td class="price">5.5</td><td class="price">6.5</td>
+                </tr>
+                <tr>
+                    <td>바닐라라떼(<span class="hot">hot</span>,<span class="ice">ice</span>)</td><td class="price">4.8</td>
+                    <td>밀크티(<span class="hot">hot</span>,<span class="ice">ice</span>)</td><td class="price">4.8</td>
+                    <td>요거트 스무디</td><td class="price">5.5</td>
+                    <td>아사이 / KGB레몬 / 1664블랑</td><td class="price">6.0</td><td class="price">X</td>
+                </tr>
+                <tr>
+                    <td>헤이즐넛라떼(<span class="hot">hot</span>,<span class="ice">ice</span>)</td><td class="price">4.8</td>
+                    <td>아이스티(<span class="ice">ice</span>)</td><td class="price">3.8</td>
+                    <td>쿠앤크스무디 / 자바칩스무디 / 초코스무디</td><td class="price">5.5</td>
+                    <td>호로요이(화이트사워)</td><td class="price">6.0</td><td class="price">X</td>
+                </tr>
+                <tr>
+                    <td>카페모카(<span class="hot">hot</span>,<span class="ice">ice</span>)</td><td class="price">4.8</td>
+                    <td>초코라떼/그린티라떼/단호박라떼/군고무라떼(<span class="hot">hot</span>,<span class="ice">ice</span>)</td><td class="price">4.8</td>
+                    <td>민트초코스무디 / 그린티스무디 / 단호박 스무디</td><td class="price">5.5</td>
+                    <td>코젤 다크 / 썸머스비 / 애플</td><td class="price">X</td><td class="price">7.0</td>
+                </tr>
+                <tr>
+                    <td>카라멜마끼아또(<span class="hot">hot</span>,<span class="ice">ice</span>)</td><td class="price">4.8</td>
+                    <td>상큼레몬차 / 상큼자몽차(<span class="hot">hot</span>)</td><td class="price">4.3</td>
+                    <td colspan="2" rowspan="3"><img src="../assets/popcorn.png" alt="팝콘"></td>
+                    <td colspan="3" rowspan="3">
+                        <table>
+                            <th colspan="2">Snack</th>
+                            <tr><td>봉지과자(양파링/바나나킥/포카칩/꼬깔콘/홈런볼)</td><td class="price">2.0</td></tr>
+                            <tr><td>프링글스(대)</td><td class="price">3.5</td></tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>샷그린티라떼(<span class="ice">ice</span>)</td><td class="price">5.0</td>
+                    <td>상큼과일에이드(<span class="ice">ice</span>)</td><td class="price">4.8</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><p>아메리카노 사이즈업+1.0 샷추가+0.5 <br> 카페라떼 사이즈업+1.5 시럽추가+0.5</p></td>
+                </tr>
+            </table>
         </section>
     </body>
 </html>

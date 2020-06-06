@@ -69,7 +69,7 @@ nav {
     height: 300px; text-align: center
 }
 
-span {
+nav span {
     position: relative;
     width: 150px;
     height: 45px;
@@ -87,7 +87,6 @@ span {
     
     color: #FFFFFF
 }
-
 #currentpage
 {
     background: rgba(46, 44, 44, 0.8);
