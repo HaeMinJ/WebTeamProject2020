@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1440px,height = 1024px, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> 메인화면 </title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -18,7 +18,7 @@
             <span id="tab_menu">FAQ</span>
             <span id="tab_menu">이벤트</span>
             <span id="tab_menu">오시는 길</span>
-        </div>
+        </nav>
             
        
         
@@ -42,7 +42,14 @@
     <script src="http://code.jquery.com/jquery-latest.js"></script>
 </footer>
 <style>
-    
+    body{
+        text-align: center;
+        width: 100%;
+        min-width: 1440px;
+    }
+    header{
+        align-self: center;
+    }
     #aside_first{
         line-height: 71px;
     }
@@ -66,52 +73,52 @@
 
     }
     article{
-        
-        position: absolute;
-width: 1061px;
-height: 549px;
-left: -13px;
-top: 393px;
+        position: fixed;
+        width: 1061px;
+        height: 549px;
+        left: -13px;
+        top: 393px;
 
-background: url(../assets/image.png);
+        background: url(../assets/image.png);
     }
     aside{
-        position: absolute;
-width: 405px;
-height: 549px;
-left: 1047px;
-top: 393px;
+        position: fixed;
+        width: 405px;
+        height: 549px;
+        left: 1047px;
+        top: 393px;
 
-background: #FFFFFF;
+        background: #FFFFFF;
     }
     body{
         background-color:  #C1ACA0;
         position: relative;
     }
     #text_header{
-        position: absolute;
+        position: fixed;
         width: 478px;
         height: 181px;
         left: 455px;
         top: 78px;
     }
     #rect1{
-        position: absolute;
+        position:fixed;
         width: 265px;
         height: 266px;
         left: 80px;
         top: 41px;
     }
     #rect2{
-        position: absolute;
+        position:fixed;
         width: 252.1px;
         height: 232.73px;
         left: 1079px;
         top: -32px;
     }
     #tab{
-        position: absolute;
-        width: 1440px;
+        position:fixed;
+        min-width: 1440px;
+        width: 100%;
         height: 75px;
         left: 0px;
         top: 270px;

@@ -66,6 +66,7 @@ color: #FFFFFF;
 
 }
 nav {
+    min-width: 1440px;
     height: 300px; text-align: center
 }
 

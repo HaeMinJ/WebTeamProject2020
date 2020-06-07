@@ -17,6 +17,7 @@ span.ice{
 }
 section{
     align-items: center;
+    min-width: 1440px;
 }
 table p{
     background-color: orange;
