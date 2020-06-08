@@ -1,0 +1,38 @@
+table{
+    margin:auto;
+    width: 100%;
+}
+
+th,td{
+    height: 30px;
+    background-color:  rgba(196, 196, 196, 0.54);
+}
+
+div{
+    width: 1169px;
+height: 281px;
+left: 64px;
+top: 572px;
+padding: 10px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 28px;
+display: flex;
+align-items: center;
+}
+
+a{  
+
+    height: 100%;
+
+    color: black;
+  text-decoration: none;  
+}
+a:visited{
+
+    color: black;
+    font-size: 10px;
+}
