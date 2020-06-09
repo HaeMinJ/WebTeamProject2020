@@ -76,7 +76,6 @@ top: 551px;
     padding: 12px;
     position: relative;
     z-index: 9;
-    -moz-border-radius: 20px;
 }
 #vtab > div > h4 {
     color: #800;
