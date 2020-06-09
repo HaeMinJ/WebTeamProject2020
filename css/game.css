@@ -1,0 +1,39 @@
+#select {
+
+width: 250px;
+height: 75px;
+left: 19px;
+top: 376px;
+
+background: #C4C4C4;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 42px;
+align-items: center;
+text-align: center;
+vertical-align:middle;
+display:table-cell;
+color: #FFFFFF;
+float: left;
+}
+table{
+    float: left;
+}
+td{
+    border: 1px solid  #C4C4C4;
+    width: 240px;
+    height: 60px;
+    text-align: center;
+}
+th{
+    border: 4px solid  #C4C4C4;
+    width: 240px;
+    height: 60px;
+}
+
+#gamerule{
+    float: right;
+}
