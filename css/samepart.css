@@ -102,3 +102,64 @@ span>a {
 nav span:hover {
     background: rgba(46, 44, 44, 0.8);
 }
+
+footer {
+    height: 280px;
+    background-color: rgba(103, 73, 56, 0.57);
+}
+
+
+.ftable{
+    margin-left: 50px;
+}
+
+#title{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+#things{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 27px;
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.under{
+    padding-left: 60px;
+}
+
+.images{
+    position: static;
+    margin-right: 3%;
+    margin-top: -18%;
+    float: right;
+}
+
+.seoultech{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+
+color: rgba(0, 0, 0, 0.4);
+float: right;
+margin-right: 5%;
+margin-top: -5%;
+}
+
+
+
