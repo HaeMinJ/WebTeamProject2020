@@ -25,31 +25,55 @@
     </header>
     <br>
     <section>
-        <div id="select">
-            게임방법
+        <div id="vtab">
+            
+            <ul>
+                <li id="main1">게임 종류</li>
+                <li id="game_tab">할리갈리</li>
+                <li id="game_tab">햄인게임</li>
+                <li id="game_tab">애웅게임</li>
+                <li id="game_tab">펭귄트랩</li>
+                <li id="game_tab">설인게임</li>
+                <img class="tab_img" id="img1" src="../assets/arrow_unselected.svg" alt="">
+                <img class="tab_img" id="img2" src="../assets/arrow_unselected.svg" alt="">
+                <img class="tab_img" id="img3" src="../assets/arrow_unselected.svg" alt="">
+                <img class="tab_img" id="img4" src="../assets/arrow_unselected.svg" alt="">
+                <img class="tab_img" id="img5" src="../assets/arrow_unselected.svg" alt="">
+                
+            </ul>
+            <div>
+                <h1>할리갈리</h1>
+            </div>
+            <div>
+                <h2>햄인게임</h2>
+            </div>
+            <div>
+                <h2>애웅게임</h2>
+            </div>
+            <div>
+                <h3>펭귄트랩</h3>
+            </div>
+            <div>
+                <h2>설인게임</h2>
+            </div>
         </div>
-        <table>
-            <tr>
-                <th>할리갈리</th>
-            </tr>
-            <tr>
-                <td>햄인게임</td>
-            </tr>
-            <tr>
-                <td>애웅게임</td>
-            </tr>
-            <tr>
-                <td>펭귄트랩</td>
-            </tr>
-            <tr>
-                <td>설인게임</td>
-            </tr>
-        </table>
-
-        <div id="gamerule">
-
-        </div>
+       
     </section>
 </body>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+ 
+<script type="text/javascript">
+    $(function() {
+        var $items = $('#vtab>ul>li#game_tab');
+        $items.click(function() {
+            $items.removeClass('selected');
+            $(this).addClass('selected');
+
+            var index = $items.index($(this));
+            $('#vtab>div').hide().eq(index).show();
+            $('.tab_img').attr("src","../assets/arrow_unselected.svg").eq(index).attr("src","../assets/arrow_selected.svg");
+        }).eq(0).click();
+    });
+</script>
 
 </html>
