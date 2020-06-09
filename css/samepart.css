@@ -99,6 +99,6 @@ span>a {
     text-decoration: none;
 }
 
-span:hover {
+nav span:hover {
     background: rgba(46, 44, 44, 0.8);
 }
