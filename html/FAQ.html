@@ -9,7 +9,8 @@
         .button {font-size: 20px; padding: 10px; width: 161px; height: 56px; float: right;}
         textarea {width: 100%;}
         td {text-align: center;}
-        th,td{padding: 15px;}
+        #th{font-size: 20px; background-color:  #C1ACA0;color: white;padding: 15px; border-radius: 2px;}
+        #td{border: 1px solid #C1ACA0;padding: 15px; font-size: 15px;}
     </style>
 </head>
 <body>
@@ -30,29 +31,30 @@
     <section>
         <article>
         <h1>자주하시는 질문</h1>
-        <table border="1" width="1400">
-            <tr bgcolor="gray" > 
-                <td><strong> 번호 </strong></td>  <td><strong> 제목 </strong></td>  <td><strong> 질문날짜 </strong></td>
+        <table border="1" width="1400" align="center">
+            <tr> 
+                <th id="th"><strong> 번호 </strong></th>  <th id="th"><strong> 제목 </strong></th>  <th id="th"><strong> 질문날짜 </strong></th>
             </tr>
             <tr> 
-                <td  ><strong> 5 </strong></td>  <td><strong> 알바 모집하나요?</strong></td>  <td ><strong> 2020-6-2 </strong></td>
+                <td id="td" ><strong> 5 </strong></td>  <td id="td" style="cursor:pointer" onClick="location.href='../html/FAQ_5.html'"><strong> 알바 모집하나요?</strong></td>  <td id="td"><strong> 2020-6-2 </strong></td>
             </tr>
             <tr>
-                <td  ><strong> 4 </strong></td>  <td><strong> 게임 시간 문의</strong></td>  <td ><strong> 2020-5-25 </strong></td>
+                <td  id="td"><strong> 4 </strong></td>  <td id="td" style="cursor:pointer" onClick="location.href='../html/FAQ_4.html'"><strong> 게임 시간 문의</strong></td>  <td id="td"><strong> 2020-5-25 </strong></td>
             </tr>
             <tr>
-                <td  ><strong> 3 </strong></td>  <td><strong> 음료문의 </strong></td>  <td ><strong> 2020-5-10 </strong></td>            
+                <td id="td" ><strong> 3 </strong></td>  <td id="td" style="cursor:pointer" onClick="location.href='../html/FAQ_3.html'"><strong> 음료문의 </strong></td>  <td id="td"><strong> 2020-5-10 </strong></td>            
             </tr>
             <tr>
-                <td  ><strong> 2 </strong></td>  <td><strong> 게임설명 문의</strong></td>  <td ><strong> 2020-5-2 </strong></td>           
+                <td id="td" ><strong> 2 </strong></td>  <td id="td" style="cursor:pointer" onClick="location.href='../html/FAQ_2.html'"><strong> 게임설명 문의</strong></td>  <td id="td"><strong> 2020-5-2 </strong></td>           
              </tr>
             <tr>
-                <td  ><strong> 1 </strong></td>  <td><strong> 운영시간 문의</strong></td>  <td ><strong> 2020-4-10 </strong></td>           
+                <td  id="td"><strong> 1 </strong></td>  <td id="td" style="cursor:pointer" onClick="location.href='../html/FAQ_1.html'"><strong> 운영시간 문의</strong></td>  <td id="td"><strong> 2020-4-10 </strong></td>           
             </tr>
             </table>
-           <table >
-               <tr><td><input type="button" class="button" name="btn1" value="질문하기" onClick="location.href='question.html'"></td></tr>
-           </table>
+            <table width=100% height=100% border=0><tr><td style=padding-left:500;padding-bottom:0>
+                <table width=1520 height=20 border=0><tr><td><input type="button" class="button" name="btn1" value="질문하기" style="cursor:pointer" onClick="location.href='question.html'">
+                </td></tr></table>
+                </td></tr></table>
         </article>
     </section>
 </body>
