@@ -68,13 +68,14 @@
 
         </div>
         <div>
-            <iframe src="./haligali.html" frameborder="0"  scrolling="no" onload="resizeIframe(this)"></iframe>
+            <iframe src="./game_list/haligali.html" frameborder="0"  scrolling="no" style="width: 100vh; height: 100vh;" onload="resizeIframe(this)"></iframe>
         </div>
         <div>
-            <h2>햄인게임</h2>
+            <!-- 이거 재웅이가 이 html 수정하면 됨. -->
+            <iframe src="./game_list/penguin.html" frameborder="0"  scrolling="no" style="width: 100vh; height: 100vh;" onload="resizeIframe(this)"></iframe>
         </div>
         <div>
-            <h2>애웅게임</h2>
+            <iframe src="./game_list/sabotaji.html" frameborder="0"  scrolling="no" style="width: 100vh; height: 100vh;" onload="resizeIframe(this)"></iframe>
         </div>
         <div>
             <h3>펭귄트랩</h3>
@@ -121,10 +122,7 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
  
 <script type="text/javascript">
-    function resizeIframe(obj) {
-      obj.style.width = obj.contentWindow.document.body.scrollWidth + 'px';
-      obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
-    }
+    
     $(function() {
         var $items = $('#vtab>ul>li#game_tab');
         $items.click(function() {
@@ -143,5 +141,9 @@
             $items[item_index+1].click();
         })
     });
+    function resizeIframe(obj) {
+      //obj.style.width = obj.contentWindow.document.body.scrollWidth + 'px';
+      //obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+    }
 </script>
 </html>
