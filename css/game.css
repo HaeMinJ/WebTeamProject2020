@@ -27,19 +27,58 @@ li{
     position: absolute;
 width: 18px;
 height: 34px;
-left: 247px;
-top: 478px;
+left: 235px;
+top: 95px;
 
 }
 #img2{
     position: absolute;
 width: 18px;
-height: 33.5px;
-left: 247px;
-top: 551px;
-
+height: 60px;
+left: 235px;
+top: 145px;
 }
-#main1{
+#img3{
+    position: absolute;
+width: 18px;
+height: 60px;
+left: 235px;
+top: 208px;
+}
+#img4{
+    position: absolute;
+width: 18px;
+height: 60px;
+left: 235px;
+top: 268px;
+}
+#img5{
+    position: absolute;
+width: 18px;
+height: 60px;
+left: 235px;
+top: 328px;
+}
+.gamelist div{
+    display: inline-block;
+    width: 300px;
+    height: auto;
+}
+
+.gamelist div img{
+    max-width: 200px;
+    height: 200px;
+}
+.gamelist p.title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.gamelist p.explain{
+    font-size: 12px;
+    color: gray;
+}
+
+.main1{
     width: 263px;
     height: 79px;
     background: #C4C4C4;
@@ -55,6 +94,7 @@ top: 551px;
     float: right;
 }
 #vtab {
+    position: relative;
     background-color: white;
 }
 #vtab > ul {
@@ -68,6 +108,12 @@ top: 551px;
     padding: 0;
     position: relative;
     top: 30px;
+}
+#game_tab{
+    cursor: pointer;
+}
+.list_item{
+    cursor: pointer;
 }
 #vtab > div {
     margin-left: 282px;

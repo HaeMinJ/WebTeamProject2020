@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>과기대보드게임카페</title>
-    <link rel="stylesheet" href="../css/gamelist.css">
     <link rel="stylesheet" href="../css/samepart.css">
+    <link rel="stylesheet" href="../css/game.css">
 </head>
 <body>
     <header>
@@ -22,55 +22,71 @@
     </header>
     <br>
     <section>
+        <div id="vtab"> 
+            <ul>
+                <li id="game_tab" class="main1">게임 종류</li>
+                <li id="game_tab">할리갈리</li>
+                <li id="game_tab">햄인게임</li>
+                <li id="game_tab">애웅게임</li>
+                <li id="game_tab">펭귄트랩</li>
+                <li id="game_tab">설인게임</li>
+                <img class="tab_img" id="img1" src="../assets/arrow_unselected.svg" alt="">
+                <img class="tab_img" id="img2" src="../assets/arrow_unselected.svg" alt="">
+                <img class="tab_img" id="img3" src="../assets/arrow_unselected.svg" alt="">
+                <img class="tab_img" id="img4" src="../assets/arrow_unselected.svg" alt="">
+                <img class="tab_img" id="img5" src="../assets/arrow_unselected.svg" alt="">
+                
+            </ul>
         <div class="gamelist">
-            <div>
-                <img src="../assets/펭귄트랩(얼음깨기).jpg" alt="펭귄트랩">
-                <p class="title">펭귄트랩(얼음깨기)</p>
-                <p class="explain">인원:2~4명/난이도:A단계/시간:10분</p>
-            </div>
-            <div>
+            <div class="list_item">
                 <img src="../assets/haligali.png" alt="할리갈리">
                 <p class="title">할리갈리</p>
                 <p class="explain">인원:2~6명/난이도:매우쉬움/시간:10~20분</p>
             </div>
-            <div>
+
+            <div class="list_item">
+                <img src="../assets/펭귄트랩(얼음깨기).jpg" alt="펭귄트랩">
+                <p class="title">펭귄트랩(얼음깨기)</p>
+                <p class="explain">인원:2~4명/난이도:A단계/시간:10분</p>
+            </div>
+            
+            <div class="list_item">
                 <img src="../assets/사보타지.jpg" alt="사보타지">
                 <p class="title">사보타지</p>
                 <p class="explain">인원:2~12명/난이도:A단계/시간:30분</p>
             </div>
-            <div>
+            <div class="list_item">
                 <img src="../assets/더마인드.jpg" alt="더마인드">
                 <p class="title">더마인드</p>
                 <p class="explain">인원:2~4명/난이도:A단계/시간:20분</p>
             </div>
-            <div>
+            <div class="list_item">
                 <img src="../assets/루미큐브.png" alt="루미큐브">
                 <p class="title">루미큐브</p>
                 <p class="explain">인원:2~4명/난이도:쉬움/시간:30~60분</p>
             </div>
-            <div>
-                <img src="../assets/상어를 조심해.jpg" alt="상어를 조심해">
-                <p class="title">상어를 조심해</p>
-                <p class="explain">인원:2~4명/난이도:쉬움/시간:15분이내</p>
-            </div>
-            <div>
-                <img src="../assets/차오차오.jpg" alt="차오차오">
-                <p class="title">차오차오</p>
-                <p class="explain">인원:2~4명/난이도:쉬움/시간:30분</p>
-            </div>
-            <div>
-                <img src="../assets/spyfall.jpg" alt="스파이 폴">
-                <p class="title">스파이 폴</p>
-                <p class="explain">인원:3~12명/난이도:초중급/시간:10분</p>
-            </div>
-            <div>
-                <img src="../assets/present.jpg" alt="present">
-                <p class="title">present</p>
-                <p class="explain">인원:2~6명/난이도:쉬움/시간:15분이내</p>
-            </div>
+
+        </div>
+        <div>
+            <iframe src="./haligali.html" frameborder="0"  scrolling="no" onload="resizeIframe(this)"></iframe>
+        </div>
+        <div>
+            <h2>햄인게임</h2>
+        </div>
+        <div>
+            <h2>애웅게임</h2>
+        </div>
+        <div>
+            <h3>펭귄트랩</h3>
+        </div>
+        <div>
+            <h2>설인게임</h2>
+        </div>
+        
+        
+
         </div>
     </section>
-    <br>
     <footer>
         <table class="ftable">
             <br><br>
@@ -101,4 +117,31 @@
     </div>
     </footer>
 </body>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+ 
+<script type="text/javascript">
+    function resizeIframe(obj) {
+      obj.style.width = obj.contentWindow.document.body.scrollWidth + 'px';
+      obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+    }
+    $(function() {
+        var $items = $('#vtab>ul>li#game_tab');
+        $items.click(function() {
+            $items.removeClass('selected');
+            $(this).addClass('selected');
+
+            var index = $items.index($(this));
+            $('#vtab>div').hide().eq(index).show();
+            if(index != 0)
+                $('.tab_img').attr("src","../assets/arrow_unselected.svg").eq(index-1).attr("src","../assets/arrow_selected.svg");
+        }).eq(0).click();
+        var $list_items = $('.list_item');
+        $list_items.click(function(){
+            console.log("Clicked!");
+            var item_index = $list_items.index($(this));
+            $items[item_index+1].click();
+        })
+    });
+</script>
 </html>
