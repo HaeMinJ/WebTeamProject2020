@@ -42,8 +42,7 @@
                 
             </ul>
             <div>
-                <h1>할리갈리</h1>
-                <iframe src="./haligali.html" frameborder="0" width="1332px" height="449px"></iframe>
+                <iframe src="./haligali.html" frameborder="0"  scrolling="no" onload="resizeIframe(this)"></iframe>
             </div>
             <div>
                 <h2>햄인게임</h2>
@@ -61,6 +60,14 @@
        
     </section>
 </body>
+
+<script>
+    function resizeIframe(obj) {
+      obj.style.width = obj.contentWindow.document.body.scrollWidth + 'px';
+      obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+    }
+</script>
+
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
  
 <script type="text/javascript">
