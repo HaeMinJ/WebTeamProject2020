@@ -106,6 +106,7 @@ nav span:hover {
 footer {
     height: 280px;
     background-color: rgba(103, 73, 56, 0.57);
+    border-radius: 5px;
 }
 
 

@@ -6,7 +6,7 @@ section{text-align: center;}
 
 #text{color: black;}
 
-#box{background-color:  #C1ACA0; color: white; border-radius: 2px;
+#box{border-color: #C1ACA0; background-color:  #C1ACA0; color: white; border-radius: 2px;
      font-size: 20px;}
 
 @keyframes textColorAnimation { 
