@@ -138,18 +138,18 @@ text-align: center;
     
 }
 
-.under{
+footer .under{
     padding-left: 60px;
 }
 
-.images{
+footer .images{
     position: static;
     margin-right: 3%;
     margin-top: -18%;
     float: right;
 }
 
-.seoultech{
+footer .seoultech{
     font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -161,6 +161,7 @@ float: right;
 margin-right: 5%;
 margin-top: -5%;
 }
+
 
 
 
