@@ -1,14 +1,12 @@
-body{
-     background-color:  #C1ACA0;
-}
+section{text-align: center;}
 
-section{background-color: white; border-radius: 10px; padding: 10px;}
+#table{margin: 30px; text-align: center; margin-left: auto; margin-right: auto;}
 
-#table{margin: 30px;}
+#event{font-size: 30px; color: black;}
 
-#title{font-size: 20px;}
+#text{color: black;}
 
-#box{background-color:  #C1ACA0; color: white; border-radius: 2px;
+#box{border-color: #C1ACA0; background-color:  #C1ACA0; color: white; border-radius: 2px;
      font-size: 20px;}
 
 @keyframes textColorAnimation { 

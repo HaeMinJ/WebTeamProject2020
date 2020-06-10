@@ -2,13 +2,15 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Question</title>
+    <title>과기대보드게임카페</title>
     <link rel="stylesheet" href="../css/samepart.css">
     <style>
         h1 {color: rgb(109, 84, 54); font-size: 30px;}
         .button {font-size: 20px; padding: 10px; width: 161px; height: 56px; float: right;}
         textarea {width: 100%;}
         td {text-align: center;}
+        #th{font-size: 20px; background-color:  #C1ACA0;color: white;padding: 15px; border-radius: 2px;}
+        #td{border: 1px solid #C1ACA0;padding: 15px; font-size: 15px;}
     </style>
 </head>
 <body>
@@ -21,7 +23,7 @@
             <span><a href="../html/drink.html">음료</a></span>
             <span><a href="../html/reservation.html">방문예약</a></span>
             <span id="currentpage">FAQ</span>
-            <span><a href="../html/event.html">이벤트</a></span>
+            <span><a href="../html/event.html">공지사항/이벤트</a></span>
             <span><a href="../html/WayToCome.html">오시는 길</a></span>
         </nav>
     </header>
@@ -29,18 +31,50 @@
     <section>
         <article>
         <h1>질문하기</h1>
-        <table border="1" width="1500">
-            <tr bgcolor="gray" > 
-                <td><strong> 제목 </strong></td>
-                <td> <textarea rows="2"></textarea></td>
+        <table border="1" width="90%" align="center">
+            <tr> 
+                <th id="th"><strong> 제목 </strong></th>
+                <td id="td"> <textarea rows="2" placeholder="제목을입력해주세요."></textarea></td>
             </tr>
             <tr> 
-                <td><strong> 내용 </strong></td>
-                <td> <textarea rows="10"></textarea></td>
+                <th id="th"><strong> 내용 </strong></th>
+                <td id="td"> <textarea rows="10" placeholder="문의사항을 입력해주세요."></textarea></td>
             </tr>
         </table>
-        <input type="button" class="button" name="btn2" value="질문하기"  style="float: right;" onClick="location.href='questioncomplete.html'">
+        <table width=100% height=100% border=0><tr><td style=padding-left:50%;padding-bottom:0>
+            <table width=90% height=20 border=0><tr><td><input type="button" class="button" name="btn1" value="질문하기" style="cursor:pointer" onClick="location.href='questioncomplete.html'">
+            </td></tr></table>
+            </td></tr></table>
         </article>
     </section>
+    <footer>
+        <table class="ftable">
+            <br><br>
+            <tr>
+                <th id="title" >과기대보드게임 카페</th><td id="things" style="font-size: 15px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   <a href="#"style="text-decoration: none; color:black"> &nbsp;연구원 소개&nbsp;</a> | <a href="#" style="text-decoration: none; color:black">&nbsp;이용약관&nbsp;</a> | <a href="https://www.instagram.com/?hl=ko" style="text-decoration: none; color:black">&nbsp;인스타그램&nbsp; </a> | <a href="https://www.facebook.com/?ref=logo" style="text-decoration: none; color:black">&nbsp;페이스북&nbsp; </a> | <a href="https://www.youtube.com/?gl=KR&hl=ko" style="text-decoration: none; color:black"> &nbsp;유튜브&nbsp; </a></td>
+            </tr>
+        </table>
+        <br><br>
+        <div class="under">
+            과기대보드게임 주식회사 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;대표자 : 김재수
+            <br><br>
+            (01811) 서울시 노원구 공릉로 232 서울과학기술대학교<br>
+            SEOUL NATIONAL UNIVERSITY OF SCIENCE AND TECHNOLOGY_BOARDGAME_CAFE
+        </div>
+        <div class="images">
+        <a href="https://www.facebook.com/?ref=logo"><img src="../assets/facebook.PNG" alt="페이스북으로 이동" width="40px" height="40px"></a>
+        <a href="https://www.youtube.com/?gl=KR&hl=ko"><img src="../assets/youtube.PNG" alt="유튜브로이동" width="40px" height="40px"></a>
+        <a href="https://www.instagram.com/?hl=ko"><img src="../assets/in.PNG" alt="인스타그램으로 이동" width="40px" height="40px"></a>
+    </div>
+    <div class="seoultech"><strong>
+        SEOULTECH<BR>
+            &nbsp;&nbsp;&nbsp;&nbsp;BOARDGAME</strong>
+    </div>
+    </footer>
 </body>
 </html>

@@ -1,69 +1,59 @@
-<!doctype html>
-<html lang="ko">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>과기대보드게임카페</title>
-    <script src="../js/reservation.js"></script>
-    <link rel="stylesheet" href="../css/reservation.css">
-    <link rel="stylesheet" href="../css/samepart.css"> <!--위에 공통 탭부분 css-->
+    <link rel="stylesheet" href="../css/samepart.css">
+    <link rel="stylesheet" href="../css/FAQ.css">
 </head>
-
 <body>
     <header>
         <p id="ghak">과기대</p>
         <p id="game">보드게임</p>
-        <p id="current">방문예약</p>
+        <p id="current">FAQ</p>
         <nav>
             <a href="./gamelist.html"><span>게임목록</span></a>
             <a href="./drink.html"><span>음료</span></a>
-            <a href="./reservation.html"><span id="currentpage">방문예약</span></a>
-            <a href="./FAQ.html"><span>FAQ</span></a>
+            <a href="./reservation.html"><span>방문예약</span></a>
+            <a href="./FAQ.html"><span id="currentpage">FAQ</span></a>
             <a href="./event.html"><span>공지사항/이벤트</span></a>
             <a href="./WayToCome.html"><span>오시는 길</span></a>
         </nav>
     </header>
     <br>
     <section>
-        <br>
         <table>
             <tr>
-                <th id="th">예약날짜 </th>
-                <td id="td">
-                    <form>
-                        &nbsp;<input type="date" id="date">
-                    </form>
-                </td>
+                <th>제목</th>
+                <td colspan="7">알바모집하나요?</td>
             </tr>
             <tr>
-                <th id="th">방문시간 </th>
-                <td id="td">
-                    <form>
-                        &nbsp;<input type="time" id="time">
-                    </form>
-                </td>
+                <th>작성자</th>
+                <td colspan="3">김애웅</td>
+                <th>조회수</th><td>14</td>
+                <th>날짜</th><td>2020-4-10</td>
             </tr>
             <tr>
-                <th id="th">게임 인원 수 </th>
-                <td id="td">&nbsp;<input type="text" id="people" value="2">명</td>
-            </tr>
-            <tr>
-                <th id="th">총 게임시간 </th>
-                <td id="td">&nbsp;<input type="text" id="run" value="1">시간(시간단위입력)
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" text-align="right">
-                    <p><input type="button" id="reservation" value="예약하기" onclick="confirmOrder(); change();"></p>
-                </td>
+                <th>첨부파일</th>
+                <td colspan="7"><a href="../assets/김애웅이력서.pdf" download>김애웅이력서.pdf</a></td>
             </tr>
         </table>
-        <br><br>
-        <div class="box">
-            &lt;참고사항&gt;<Br>
-            1시간 게임요금은 1인당 2000원입니다. <br>
-            음료는 게임 시작전에 매장에서 직접 고르시면 됩니다.
+        <div style="border:1px solid #C1ACA0;">
+            안녕하세요. 김애웅입니다! <Br>
+혹시 과기대 보드게임 알바 안구하나요? 일단 이력서 써내봅니다.<Br>
+완전 성실하게 일 잘할 수 있어요.<Br>
++알바경력 : 도미노피자직원 이하 등등,,<Br>
+이력서 천천히 읽어주시고 꼭 연락 주세요!<Br>
+과기대 보드게임 짱짱♥
+
         </div>
+       <table>
+           <tr>
+               <th>
+        <a href="./FAQ.html">목록으로</a></th>
+    </tr>
+    </table>
     </section>
     <footer>
         <table class="ftable">
@@ -95,5 +85,4 @@
     </div>
     </footer>
 </body>
-
 </html>

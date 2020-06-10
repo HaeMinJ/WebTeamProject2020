@@ -1,70 +1,42 @@
-<!doctype html>
-<html lang="ko">
-
+<!DOCTYPE html>
+<html>
 <head>
     <meta charset="utf-8">
     <title>과기대보드게임카페</title>
     <script src="../js/reservation.js"></script>
-    <link rel="stylesheet" href="../css/reservation.css">
-    <link rel="stylesheet" href="../css/samepart.css"> <!--위에 공통 탭부분 css-->
+    <link rel="stylesheet" href="../css/event.css">
+    <link rel="stylesheet" href="../css/samepart.css">
 </head>
-
 <body>
     <header>
         <p id="ghak">과기대</p>
         <p id="game">보드게임</p>
-        <p id="current">방문예약</p>
+        <p id="current">공지사항/이벤트</p>
         <nav>
             <a href="./gamelist.html"><span>게임목록</span></a>
             <a href="./drink.html"><span>음료</span></a>
-            <a href="./reservation.html"><span id="currentpage">방문예약</span></a>
+            <a href="./reservation.html"><span>방문예약</span></a>
             <a href="./FAQ.html"><span>FAQ</span></a>
-            <a href="./event.html"><span>공지사항/이벤트</span></a>
+            <a href="./event.html"><span id="currentpage">공지사항/이벤트</span></a>
             <a href="./WayToCome.html"><span>오시는 길</span></a>
         </nav>
     </header>
     <br>
     <section>
-        <br>
-        <table>
-            <tr>
-                <th id="th">예약날짜 </th>
-                <td id="td">
-                    <form>
-                        &nbsp;<input type="date" id="date">
-                    </form>
-                </td>
-            </tr>
-            <tr>
-                <th id="th">방문시간 </th>
-                <td id="td">
-                    <form>
-                        &nbsp;<input type="time" id="time">
-                    </form>
-                </td>
-            </tr>
-            <tr>
-                <th id="th">게임 인원 수 </th>
-                <td id="td">&nbsp;<input type="text" id="people" value="2">명</td>
-            </tr>
-            <tr>
-                <th id="th">총 게임시간 </th>
-                <td id="td">&nbsp;<input type="text" id="run" value="1">시간(시간단위입력)
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" text-align="right">
-                    <p><input type="button" id="reservation" value="예약하기" onclick="confirmOrder(); change();"></p>
-                </td>
-            </tr>
+        <table id="table">
+            <tr><td> <img src="../assets/만우절.jpg" width="200"></td>
+            <td><h2>만우절인데 거짓말이 빠지면 안되지!</h2></td></tr>
         </table>
-        <br><br>
-        <div class="box">
-            &lt;참고사항&gt;<Br>
-            1시간 게임요금은 1인당 2000원입니다. <br>
-            음료는 게임 시작전에 매장에서 직접 고르시면 됩니다.
-        </div>
-    </section>
+        <p>1. 학창시절에 선생님들한테 거짓말 좀 쳐봤다!<br>2. 친구들한테 거짓말 좀 쳐봤다!<br>3. 그냥 연기를 잘해서 거짓말도 잘한다!<br><br>
+            여러 분야에서 거짓말에 자신있는 사람들은 여기로 모여라!<br><span id="color">만우절 거짓말 게임</span></p>
+            <table id="table">
+                <tr><td><span id="box"><a href="./gamelist.html">차오차오</a></span></td><td><span id="box"><a href="./gamelist.html">스파이 폴</a></span></td>
+                    <td><span id="box"><a href="./gamelist.html">present</a></span></td></tr>
+                <tr><td><a href="./gamelist.html"><img src="../assets/차오차오.jpg" width="250"></a></td>
+                    <td><a href="./gamelist.html"><img src="../assets/spyfall.jpg" width="240"></a></td>
+                    <td><a href="./gamelist.html"><img src="../assets/present.jpg" width="200"></a></td></tr>
+            </table>
+    </section><br><br>
     <footer>
         <table class="ftable">
             <br><br>
@@ -95,5 +67,4 @@
     </div>
     </footer>
 </body>
-
 </html>
