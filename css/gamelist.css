@@ -1,4 +1,4 @@
-div{
+section div{
     display: inline-block;
     width: 300px;
     height: auto;
@@ -10,7 +10,7 @@ div.gamelist{
 section{
     text-align: center;
 }
-img{
+section img{
     max-width: 200px;
     height: 200px;
 }
