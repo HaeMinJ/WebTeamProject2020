@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> 메인화면 </title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
     <header>
-        <img id="text_header" src="../assets/main_text.svg" alt="">
-        <img id="rect1" src="../assets/rect1.svg" alt="">
-        <img id="rect2" src="../assets/rect2.svg" alt="">
+        <div id="logo_block">
+            <img id="text_header" src="../assets/main_text.svg" alt="">
+            <img id="rect1" src="../assets/rect1.svg" alt="">
+            <img id="rect2" src="../assets/rect2.svg" alt="">
+            
+        </div>
         <nav id="tab">
             <span id="tab_menu">게임목록</span>
-            <span id="tab_menu">신규입고</span>
+            <span id="tab_menu">음료</span>
             <span id="tab_menu">방문예약</span>
             <span id="tab_menu">FAQ</span>
             <span id="tab_menu">이벤트</span>
             <span id="tab_menu">오시는 길</span>
         </nav>
-            
-       
         
     </header>
     <article>
@@ -29,7 +30,7 @@
     <aside>
         <div id="aside_first">
             <span class="aside_text">공지사항</span>
-            <span class="aside_text">신규입고</span>    
+            <span class="aside_text">이벤트</span>    
         </div>
         <span class="vl"></span>
     </aside>
@@ -41,107 +42,4 @@
 <footer>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
 </footer>
-<style>
-    body{
-        text-align: center;
-        width: 100%;
-        min-width: 1440px;
-    }
-    header{
-        align-self: center;
-    }
-    #aside_first{
-        line-height: 71px;
-    }
-    .aside_text{
-        position: relative;
-        display: inline-block;
-        width: 190px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 28px;
-        align-items: center;
-        text-align: center;
-        color: #000000;
-    }
-    #vertical_line{
-     
-  border-left: 1px solid black;
-  height: 70px;
-
-    }
-    article{
-        position: fixed;
-        width: 1061px;
-        height: 549px;
-        left: -13px;
-        top: 393px;
-
-        background: url(../assets/image.png);
-    }
-    aside{
-        position: fixed;
-        width: 405px;
-        height: 549px;
-        left: 1047px;
-        top: 393px;
-
-        background: #FFFFFF;
-    }
-    body{
-        background-color:  #C1ACA0;
-        position: relative;
-    }
-    #text_header{
-        position: fixed;
-        width: 478px;
-        height: 181px;
-        left: 455px;
-        top: 78px;
-    }
-    #rect1{
-        position:fixed;
-        width: 265px;
-        height: 266px;
-        left: 80px;
-        top: 41px;
-    }
-    #rect2{
-        position:fixed;
-        width: 252.1px;
-        height: 232.73px;
-        left: 1079px;
-        top: -32px;
-    }
-    #tab{
-        position:fixed;
-        min-width: 1440px;
-        width: 100%;
-        height: 75px;
-        left: 0px;
-        top: 270px;
-        line-height: 75px;
-        background: #FFFFFF;
-
-    }
-    #tab_menu{
-        position: relative;
-        width: 212px;
-        height: 74px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 28px;
-        align-items: center;
-        text-align: center;
-        display: inline-block;
-
-        color: #000000;
-    }
-    
-    
-</style>
 </html>
