@@ -59,6 +59,20 @@ height: 60px;
 left: 235px;
 top: 328px;
 }
+#img6{
+    position: absolute;
+width: 18px;
+height: 60px;
+left: 235px;
+top: 389px;
+}
+#img7{
+    position: absolute;
+width: 18px;
+height: 60px;
+left: 235px;
+top: 451px;
+}
 .gamelist div{
     display: inline-block;
     width: 300px;
