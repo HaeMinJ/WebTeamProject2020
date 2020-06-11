@@ -1,0 +1,22 @@
+h1{
+   
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+text-align: center;
+margin-left: 50px;
+
+color: #674938;
+
+}
+article{
+
+background: #E5E5E5;
+}
+tr,td{
+    padding: 20px;
+}
