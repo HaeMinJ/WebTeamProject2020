@@ -1,6 +1,10 @@
 body {
     text-align: center;
 }
+
+.hoverTab div{
+    display: inline-block;
+}
 .wrapper {
     width: 1301px;
     margin-top: 32px;
@@ -76,7 +80,7 @@ body {
     top: -32px;
 }
 #tab {
-    width: 1300px;
+    width: 1301px;
     position: relative;
     line-height: 74px;
     max-lines: 1;
@@ -89,7 +93,6 @@ body {
 #tab_menu {
     position: relative;
     width: 212px;
-    height: 74px;
 
     line-height: 74px;
     text-align: center;
@@ -100,4 +103,24 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
+}
+#tab_item {
+    position: relative;
+    width: 212px;
+
+    text-align: center;
+    display: inline-block;
+    color: #000000;
+    line-height: 50px;
+    height: 300px;
+    vertical-align: top;
+}
+.hoverMenu{
+
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    height: 24px;
 }

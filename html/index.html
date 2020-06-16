@@ -24,7 +24,32 @@
             <a href="./event.html"><span id="tab_menu">공지사항/이벤트</span></a>
             <a href="./WayToCome.html"><span id="tab_menu">오시는 길</span></a>
             <div class="hoverTab">
-            
+                <div id="tab_item">
+                    <a id="haligali"><span class="hoverMenu" onclick="onClickGameList(0);">할리갈리</span></a><br>
+                    <a href="./gamelist.html"><span class="hoverMenu">펭귄트렙</span></a><br>
+                    <a href="./gamelist.html"><span class="hoverMenu">사보타지</span></a><br>
+                    <a href="./gamelist.html"><span class="hoverMenu">더마인드</span></a><br>
+                    <a href="./gamelist.html"><span class="hoverMenu">루미큐브</span></a>
+                </div>
+                <div id="tab_item">
+                    <a href="./drink.html"><span class="hoverMenu">음료</span></a>
+                </div>
+                <div id="tab_item">
+                    <a href="./reservation.html"><span class="hoverMenu">예약하기</span></a><br>
+                       </div>
+                <div id="tab_item">
+                    <a href="./FAQ.html"><span class="hoverMenu">FAQ</span></a><br>
+                    <a href="./question.html"><span class="hoverMenu">질문하기</span></a><br>
+                </div>
+                <div id="tab_item">
+                    <a href="./event1.html"><span class="hoverMenu">이것은 무엇?</span></a><br>
+                    <a href="./event2.html"><span class="hoverMenu">퀴즈 이벤트</span></a><br>
+                    <a href="./event3.html"><span class="hoverMenu">동심 업 프로젝트</span></a><br>
+                    <a href="./event4.html"><span class="hoverMenu">만우절 프로젝트</span></a><br>
+                </div>
+                <div id="tab_item">
+                    <a href="./WayToCome.html"><span class="hoverMenu">오시는 길</span></a><br>
+               </div>
             </div>
         </nav>
         
@@ -76,18 +101,25 @@
     </body>
     <style>
         .hoverTab{
-            /* display: none; */
+            display: none;
         }
-        #tab:hover .hoverTab {
+        #tab:hover .hoverTab { 
             z-index: 2;
-            width: 1300px;
+            width: 1301px;
             height: 300px;
             background-color: black;
             display: block;
             position: absolute;
             opacity: 70%;
         }
+        a{
+            text-decoration: none;
+        }
     </style>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+ 
     <script>
+            $('#haligali').load('./gamelist?clicked=1')
+        
     </script>
 </html>

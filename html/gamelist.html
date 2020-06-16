@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <title>과기대보드게임카페</title>
@@ -163,6 +163,10 @@
     function resizeIframe(obj) {
       //obj.style.width = obj.contentWindow.document.body.scrollWidth + 'px';
       //obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+    }
+    function clickButton(i){
+        
+        var $items = $('#vtab>ul>li#game_tab').eq(i).click();
     }
 </script>
 </html>
