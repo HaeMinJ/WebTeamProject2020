@@ -25,11 +25,7 @@
             <a href="./html/WayToCome.html"><span id="tab_menu">오시는 길</span></a>
             <div class="hoverTab">
                 <div id="tab_item">
-                    <a id="haligali"><span class="hoverMenu" onclick="onClickGameList(0);">할리갈리</span></a><br>
-                    <a href="./html/gamelist.html"><span class="hoverMenu">펭귄트렙</span></a><br>
-                    <a href="./html/gamelist.html"><span class="hoverMenu">사보타지</span></a><br>
-                    <a href="./html/gamelist.html"><span class="hoverMenu">더마인드</span></a><br>
-                    <a href="./html/gamelist.html"><span class="hoverMenu">루미큐브</span></a>
+                    <a href="./html/gamelist.html"><span class="hoverMenu">게임 종류</span></a><br>
                 </div>
                 <div id="tab_item">
                     <a href="./html/drink.html"><span class="hoverMenu">음료</span></a>
@@ -62,11 +58,19 @@
 
             <aside>
                 <div>
-                    <span class="aside_text">공지사항</span>
+                    <span class="aside_text">공지사항/이벤트</span><br>
+                    <ul style="list-style: none;">
+                        <li class="notice_item"><a href="./html/event3.html"><img style="width: 150px; margin-top: 14px;" src="./assets/동심업.jpg" alt="동심업_이벤트_이미지"></a></li>
+                        <li class="notice_item"><a href="./html/event1.html"><img style="width: 150px; margin-top: 14px; margin-left: 14px;" src="./assets/이것은무엇.png" alt="이것은무엇_이벤트_이미지"></a></li>
+                    </ul>
                 </div>
                 <hr>
                 <div>
                     <span class="aside_text">신규입고</span>
+                    <ul style="list-style: none;">
+                        <li class="notice_item"><a href="./html/game_list/haligali.html"><img style="width: 150px; margin-top: 14px;" src="./assets/haligali.png" alt="할리갈리_이미지"></a></li>
+                        <li class="notice_item"><a href="./html/game_list/penguin.html"><img style="width: 150px; margin-top: 14px;" src="./assets/펭귄트랩(얼음깨기).jpg" alt="펭귄트랩_이미지"></a></li>
+                    </ul>
                 </div>
             </aside>
         </div>
@@ -114,6 +118,9 @@
         }
         a{
             text-decoration: none;
+        }
+        .notice_item{
+            display: inline-block; 
         }
     </style>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
