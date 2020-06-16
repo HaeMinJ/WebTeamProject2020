@@ -74,7 +74,7 @@ nav {
 
 nav span {
     position: relative;
-    width: 200px;
+    width: 180px;
     height: 45px;
     left: 150px;
     top: 85px;
@@ -82,7 +82,7 @@ nav span {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 23px;
     line-height: 42px;
     display: inline-block;
     align-items: center;
@@ -144,9 +144,9 @@ footer .under{
 }
 
 footer .images{
-    position: static;
+    position: relative;
     margin-right: 3%;
-    margin-top: -18%;
+    margin-top: -15%;
     float: right;
 }
 
