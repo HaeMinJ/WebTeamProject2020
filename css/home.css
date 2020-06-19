@@ -1,4 +1,7 @@
 #surprised{ position: absolute; left: 74.22%; top: 2.43%;}
 
-#circle{background-image : url("../assets/circle.svg"); background-size: 500px 500px; background-position: center center;
+#circle{background-size: 500px 500px; 
+     background-color: #C1ACA0;
+     border-radius: 250px;
+     background-position: center center;
      display: inline-block; padding: 5em; width: 340px; height: 340px; margin: 5em;}
