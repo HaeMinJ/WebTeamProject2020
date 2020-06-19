@@ -1,0 +1,19 @@
+body{background-color:  #C1ACA0;}
+
+section{background-color: white; border-radius: 10px; padding: 10px;}
+
+#table{margin: 30px;}
+
+#title{font-size: 20px;}
+
+#box{background-color:  #C1ACA0; color: white; border-radius: 2px;
+     font-size: 20px;}
+
+@keyframes textColorAnimation { 
+            0% { color : blue; }
+            50% { color :yellow; }
+            100% { color : red; }
+            }
+#color {  animation-name : textColorAnimation;
+        animation-duration : 3s;
+        animation-iteration-count : infinite;}
