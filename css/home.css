@@ -1,4 +1,28 @@
-#surprised{ position: absolute; left: 74.22%; top: 2.43%;}
+#navintro{height: 597px;
+     left: 0px;
+     top: 0px;
+     }
+
+#intro{position: absolute;
+     width: 1234px;
+     height: 289px;
+     left: 52px;
+     top: 87px;
+     
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 65px;
+     line-height: 76px;
+     text-align: center;}
+
+#team{ font-size: 20px;}
+
+#surprised{position: absolute;
+     left: 74.22%;
+     right: 10.43%;
+     top: 9.43%;
+     bottom: 84.64%;}
 
 #circle{background-size: 500px 500px; 
      background-color: #C1ACA0;
