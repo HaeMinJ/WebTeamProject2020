@@ -5,86 +5,149 @@
     <title>과기대보드게임카페</title>
     <link rel="stylesheet" href="../css/samepart.css">
     <style>
-        h1 {color: rgb(109, 84, 54); font-size: 30px;}
-        .button {font-size: 20px; padding: 10px; width: 161px; height: 56px; float: right;}
-        textarea {width: 100%;}
-        td {text-align: center;}
-        #th{font-size: 20px; background-color:  #C1ACA0;color: white;padding: 15px; border-radius: 2px;}
-        #td{border: 1px solid #C1ACA0;padding: 15px; font-size: 15px;}
+        h1 {
+            color: rgb(109, 84, 54);
+            font-size: 30px;
+        }
+
+        .button {
+            font-size: 20px;
+            padding: 10px;
+            width: 161px;
+            height: 56px;
+            float: right;
+        }
+
+        textarea {
+            width: 100%;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        #th {
+            font-size: 20px;
+            background-color: #C1ACA0;
+            color: white;
+            padding: 15px;
+            border-radius: 2px;
+        }
+
+        #td {
+            border: 1px solid #C1ACA0;
+            padding: 15px;
+            font-size: 15px;
+        }
     </style>
 </head>
 <body>
-    <header>
-        <a href="../main_page.html"><p id="ghak">과기대</p></a>
-        <a href="../main_page.html"><p id="game">보드게임</p></a>
-        <p id="current">FAQ</p>
-        <nav>
-            <span><a href="./gamelist.html">게임목록</a></span>
-            <span><a href="../html/drink.html">음료</a></span>
-            <span><a href="../html/reservation.html">방문예약</a></span>
-            <span id="currentpage"><a href="./FAQ.html">FAQ</a></span>
-            <span><a href="../html/event.html">공지사항/이벤트</a></span>
-            <span><a href="../html/WayToCome.html">오시는 길</a></span>
-        </nav>
-    </header>
-    <br>
-    <section>
-        <article>
+<header>
+    <a href="../main_page.html"><p id="ghak">과기대</p></a>
+    <a href="../main_page.html"><p id="game">보드게임</p></a>
+    <p id="current">FAQ</p>
+    <nav>
+        <span><a href="./gamelist.html">게임목록</a></span>
+        <span><a href="../html/drink.html">음료</a></span>
+        <span><a href="../html/reservation.html">방문예약</a></span>
+        <span id="currentpage"><a href="./FAQ.html">FAQ</a></span>
+        <span><a href="../html/event.html">공지사항/이벤트</a></span>
+        <span><a href="../html/WayToCome.html">오시는 길</a></span>
+    </nav>
+</header>
+<br>
+<section>
+    <article>
         <h1>자주하시는 질문</h1>
         <table border="1" width="90%" align="center">
-            <tr> 
-                <th id="th"><strong> 번호 </strong></th>  <th id="th"><strong> 제목 </strong></th>  <th id="th"><strong> 질문날짜 </strong></th>
-            </tr>
-            <tr> 
-                <td id="td" ><strong> 5 </strong></td>  <td id="td" style="cursor:pointer" onClick="location.href='../html/FAQ_5.html'"><strong> 운영시간 문의</strong></td>  <td id="td"><strong> 2020-6-2 </strong></td>
-            </tr>
             <tr>
-                <td  id="td"><strong> 4 </strong></td>  <td id="td" style="cursor:pointer" onClick="location.href='../html/FAQ_4.html'"><strong> 게임 시간 문의</strong></td>  <td id="td"><strong> 2020-5-25 </strong></td>
+                <th id="th"><strong> 번호 </strong></th>
+                <th id="th"><strong> 제목 </strong></th>
+                <th id="th"><strong> 질문날짜 </strong></th>
             </tr>
             <tr>
-                <td id="td" ><strong> 3 </strong></td>  <td id="td" style="cursor:pointer" onClick="location.href='../html/FAQ_3.html'"><strong> 음료문의 </strong></td>  <td id="td"><strong> 2020-5-10 </strong></td>            
+                <td id="td"><strong> 5 </strong></td>
+                <td id="td" style="cursor:pointer" onClick="location.href='FAQ_list/FAQ_5.html'"><strong> 운영시간
+                    문의</strong></td>
+                <td id="td"><strong> 2020-6-2 </strong></td>
             </tr>
             <tr>
-                <td id="td" ><strong> 2 </strong></td>  <td id="td" style="cursor:pointer" onClick="location.href='../html/FAQ_2.html'"><strong> 게임설명 문의</strong></td>  <td id="td"><strong> 2020-5-2 </strong></td>           
-             </tr>
-            <tr>
-                <td  id="td"><strong> 1 </strong></td>  <td id="td" style="cursor:pointer" onClick="location.href='../html/FAQ_1.html'"><strong> 알바 모집하나요?</strong></td>  <td id="td"><strong> 2020-4-10 </strong></td>           
+                <td id="td"><strong> 4 </strong></td>
+                <td id="td" style="cursor:pointer" onClick="location.href='FAQ_list/FAQ_4.html'"><strong> 게임 시간
+                    문의</strong></td>
+                <td id="td"><strong> 2020-5-25 </strong></td>
             </tr>
-            </table>
-            <table width=100% height=100% border=0><tr><td style=padding-left:50%;padding-bottom:0>
-                <table width=90% height=20 border=0><tr><td><input type="button" class="button" name="btn1" value="질문하기" style="cursor:pointer" onClick="location.href='question.html'">
-                </td></tr></table>
-                </td></tr></table>
-        </article>
-    </section>
-    <footer>
-        <table class="ftable">
-            <br><br>
             <tr>
-                <th id="title" >과기대보드게임 카페</th><td id="things" style="font-size: 15px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                   <a href="../index.html" style="text-decoration: none; color:black"> &nbsp;연구원 소개&nbsp;</a> | <a href="service.html" style="text-decoration: none; color:black">&nbsp;이용약관&nbsp;</a> | <a href="https://www.instagram.com/?hl=ko" style="text-decoration: none; color:black">&nbsp;인스타그램&nbsp; </a> | <a href="https://www.facebook.com/?ref=logo" style="text-decoration: none; color:black">&nbsp;페이스북&nbsp; </a> | <a href="https://www.youtube.com/?gl=KR&hl=ko" style="text-decoration: none; color:black"> &nbsp;유튜브&nbsp; </a></td>
+                <td id="td"><strong> 3 </strong></td>
+                <td id="td" style="cursor:pointer" onClick="location.href='FAQ_list/FAQ_3.html'"><strong> 음료문의 </strong>
+                </td>
+                <td id="td"><strong> 2020-5-10 </strong></td>
+            </tr>
+            <tr>
+                <td id="td"><strong> 2 </strong></td>
+                <td id="td" style="cursor:pointer" onClick="location.href='FAQ_list/FAQ_2.html'"><strong> 게임설명
+                    문의</strong></td>
+                <td id="td"><strong> 2020-5-2 </strong></td>
+            </tr>
+            <tr>
+                <td id="td"><strong> 1 </strong></td>
+                <td id="td" style="cursor:pointer" onClick="location.href='FAQ_list/FAQ_1.html'"><strong> 알바
+                    모집하나요?</strong></td>
+                <td id="td"><strong> 2020-4-10 </strong></td>
             </tr>
         </table>
+        <table width=100% height=100% border=0>
+            <tr>
+                <td style=padding-left:50%;padding-bottom:0>
+                    <table width=90% height=20 border=0>
+                        <tr>
+                            <td><input type="button" class="button" name="btn1" value="질문하기" style="cursor:pointer"
+                                       onClick="location.href='question.html'">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </article>
+</section>
+<footer>
+    <table class="ftable">
         <br><br>
-        <div class="under">
-            과기대보드게임 주식회사 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;대표자 : 김재수
-            <br><br>
-            (01811) 서울시 노원구 공릉로 232 서울과학기술대학교<br>
-            SEOUL NATIONAL UNIVERSITY OF SCIENCE AND TECHNOLOGY_BOARDGAME_CAFE
-        </div>
-        <div class="images">
-        <a href="https://www.facebook.com/?ref=logo"><img src="../assets/facebook.PNG" alt="페이스북으로 이동" width="40px" height="40px"></a>
-        <a href="https://www.youtube.com/?gl=KR&hl=ko"><img src="../assets/youtube.PNG" alt="유튜브로이동" width="40px" height="40px"></a>
-        <a href="https://www.instagram.com/?hl=ko"><img src="../assets/in.PNG" alt="인스타그램으로 이동" width="40px" height="40px"></a>
+        <tr>
+            <th id="title">과기대보드게임 카페</th>
+            <td id="things" style="font-size: 15px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="../index.html" style="text-decoration: none; color:black"> &nbsp;연구원 소개&nbsp;</a> | <a
+                        href="service.html" style="text-decoration: none; color:black">&nbsp;이용약관&nbsp;</a> | <a
+                        href="https://www.instagram.com/?hl=ko" style="text-decoration: none; color:black">&nbsp;인스타그램&nbsp; </a>
+                | <a href="https://www.facebook.com/?ref=logo" style="text-decoration: none; color:black">&nbsp;페이스북&nbsp; </a>
+                | <a href="https://www.youtube.com/?gl=KR&hl=ko" style="text-decoration: none; color:black"> &nbsp;유튜브&nbsp; </a>
+            </td>
+        </tr>
+    </table>
+    <br><br>
+    <div class="under">
+        과기대보드게임 주식회사 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;대표자 : 김재수
+        <br><br>
+        (01811) 서울시 노원구 공릉로 232 서울과학기술대학교<br>
+        SEOUL NATIONAL UNIVERSITY OF SCIENCE AND TECHNOLOGY_BOARDGAME_CAFE
+    </div>
+    <div class="images">
+        <a href="https://www.facebook.com/?ref=logo"><img src="../assets/facebook.png" alt="페이스북으로 이동" width="40px"
+                                                          height="40px"></a>
+        <a href="https://www.youtube.com/?gl=KR&hl=ko"><img src="../assets/youtube.png" alt="유튜브로이동" width="40px"
+                                                            height="40px"></a>
+        <a href="https://www.instagram.com/?hl=ko"><img src="../assets/in.png" alt="인스타그램으로 이동" width="40px"
+                                                        height="40px"></a>
     </div>
     <div class="seoultech"><strong>
         SEOULTECH<BR>
-            &nbsp;&nbsp;&nbsp;&nbsp;BOARDGAME</strong>
+        &nbsp;&nbsp;&nbsp;&nbsp;BOARDGAME</strong>
     </div>
-    </footer>
+</footer>
 </body>
 </html>

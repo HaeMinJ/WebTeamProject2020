@@ -1,117 +1,163 @@
 <!DOCTYPE html>
 <html lang="ko">
-    <head>
-        <meta charset="utf-8">
-        <title>과기대보드게임카페</title>
-        <link rel="stylesheet" href="../css/samepart.css">
-        <link rel="stylesheet" href="../css/drink.css">
-    </head>
-    <body>
-        <header>
-            <a href="../main_page.html"><p id="ghak">과기대</p></a>
-            <a href="../main_page.html"><p id="game">보드게임</p></a>
-            <p id="current">음료</p>
-            <nav>
-                <span><a href="./gamelist.html">게임목록</a></span>
-                <span id="currentpage"><a href="./drink.html">음료</a></span>
-                <span><a href="./reservation.html">방문예약</a></span>
-                <span><a href="./FAQ.html">FAQ</a></span>
-                <span><a href="./event.html">공지사항/이벤트</a></span>
-                <span><a href="./WayToCome.html">오시는 길</a></span>
-            </nav>
-        </header>
-        <br>
-        <section>
-            <table>
-                <tr>
-                    <th colspan="2">Coffee</th>
-                    <th colspan="2">Non Coffee</th>
-                    <th colspan="2">Smoothie</th>
-                    <th>Beer</th>
-                    <td class="price">기본</td>
-                    <td class="price">빅사이즈</td>
-                </tr>
-                <tr>
-                    <td>아메리카노(<span class="hot">hot</span>,<span class="ice">ice</span>)</td><td class="price">3.8</td>
-                    <td>유기농잎차(<span class="hot">hot</span>,<span class="ice">ice</span>)</td><td class="price">4.3</td>
-                    <td>과일 스무디(딸기,키위/망고/블루베리)</td><td class="price">5.0</td>
-                    <td>카스 / 클라우드</td><td class="price">5.0</td><td class="price">6.0</td>
-                </tr>
-                <tr>
-                    <td>카페라떼(<span class="hot">hot</span>,<span class="ice">ice</span>)</td><td class="price">4.3</td>
-                    <td>홍차(<span class="hot">hot</span>,<span class="ice">ice</span>)</td><td class="price">4.3</td>
-                    <td>코코넛커피스무디 / 모카스무디 / 카라멜스무디</td><td class="price">5.5</td>
-                    <td>버드와이저 / 호가든</td><td class="price">5.5</td><td class="price">6.5</td>
-                </tr>
-                <tr>
-                    <td>바닐라라떼(<span class="hot">hot</span>,<span class="ice">ice</span>)</td><td class="price">4.8</td>
-                    <td>밀크티(<span class="hot">hot</span>,<span class="ice">ice</span>)</td><td class="price">4.8</td>
-                    <td>요거트 스무디</td><td class="price">5.5</td>
-                    <td>아사이 / KGB레몬 / 1664블랑</td><td class="price">6.0</td><td class="price">X</td>
-                </tr>
-                <tr>
-                    <td>헤이즐넛라떼(<span class="hot">hot</span>,<span class="ice">ice</span>)</td><td class="price">4.8</td>
-                    <td>아이스티(<span class="ice">ice</span>)</td><td class="price">3.8</td>
-                    <td>쿠앤크스무디 / 자바칩스무디 / 초코스무디</td><td class="price">5.5</td>
-                    <td>호로요이(화이트사워)</td><td class="price">6.0</td><td class="price">X</td>
-                </tr>
-                <tr>
-                    <td>카페모카(<span class="hot">hot</span>,<span class="ice">ice</span>)</td><td class="price">4.8</td>
-                    <td>초코라떼/그린티라떼/단호박라떼/군고무라떼(<span class="hot">hot</span>,<span class="ice">ice</span>)</td><td class="price">4.8</td>
-                    <td>민트초코스무디 / 그린티스무디 / 단호박 스무디</td><td class="price">5.5</td>
-                    <td>코젤 다크 / 썸머스비 / 애플</td><td class="price">X</td><td class="price">7.0</td>
-                </tr>
-                <tr>
-                    <td>카라멜마끼아또(<span class="hot">hot</span>,<span class="ice">ice</span>)</td><td class="price">4.8</td>
-                    <td>상큼레몬차 / 상큼자몽차(<span class="hot">hot</span>)</td><td class="price">4.3</td>
-                    <td colspan="2" rowspan="3"><img src="../assets/popcorn.png" alt="팝콘"></td>
-                    <td colspan="3" rowspan="3">
-                        <table>
-                            <th colspan="2">Snack</th>
-                            <tr><td>봉지과자(양파링/바나나킥/포카칩/꼬깔콘/홈런볼)</td><td class="price">2.0</td></tr>
-                            <tr><td>프링글스(대)</td><td class="price">3.5</td></tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-                    <td>샷그린티라떼(<span class="ice">ice</span>)</td><td class="price">5.0</td>
-                    <td>상큼과일에이드(<span class="ice">ice</span>)</td><td class="price">4.8</td>
-                </tr>
-                <tr>
-                    <td colspan="2"><p>아메리카노 사이즈업+1.0 샷추가+0.5 <br> 카페라떼 사이즈업+1.5 시럽추가+0.5</p></td>
-                </tr>
-            </table>
-            <p><center>음료 주문은 매장에서 부탁드립니다.</center></p>
-        </section>
-        <br>
-        <footer>
-            <table class="ftable">
-                <br><br>
-                <tr>
-                    <th id="title" >과기대보드게임 카페</th><td id="things" style="font-size: 15px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                       <a href="../index.html" style="text-decoration: none; color:black"> &nbsp;연구원 소개&nbsp;</a> | <a href="service.html" style="text-decoration: none; color:black">&nbsp;이용약관&nbsp;</a> | <a href="https://www.instagram.com/?hl=ko" style="text-decoration: none; color:black">&nbsp;인스타그램&nbsp; </a> | <a href="https://www.facebook.com/?ref=logo" style="text-decoration: none; color:black">&nbsp;페이스북&nbsp; </a> | <a href="https://www.youtube.com/?gl=KR&hl=ko" style="text-decoration: none; color:black"> &nbsp;유튜브&nbsp; </a></td>
-                </tr>
-            </table>
-            <br><br>
-            <div class="under">
-                과기대보드게임 주식회사 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;대표자 : 김재수
-                <br><br>
-                (01811) 서울시 노원구 공릉로 232 서울과학기술대학교<br>
-                SEOUL NATIONAL UNIVERSITY OF SCIENCE AND TECHNOLOGY_BOARDGAME_CAFE
-            </div>
-            <div class="images">
-            <a href="https://www.facebook.com/?ref=logo"><img src="../assets/facebook.PNG" alt="페이스북으로 이동" width="40px" height="40px"></a>
-            <a href="https://www.youtube.com/?gl=KR&hl=ko"><img src="../assets/youtube.PNG" alt="유튜브로이동" width="40px" height="40px"></a>
-            <a href="https://www.instagram.com/?hl=ko"><img src="../assets/in.PNG" alt="인스타그램으로 이동" width="40px" height="40px"></a>
-        </div>
-        <div class="seoultech"><strong>
-            SEOULTECH<BR>
-                &nbsp;&nbsp;&nbsp;&nbsp;BOARDGAME</strong>
-        </div>
-        </footer>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <title>과기대보드게임카페</title>
+    <link rel="stylesheet" href="../css/samepart.css">
+    <link rel="stylesheet" href="../css/drink.css">
+</head>
+<body>
+<header>
+    <a href="../main_page.html"><p id="ghak">과기대</p></a>
+    <a href="../main_page.html"><p id="game">보드게임</p></a>
+    <p id="current">음료</p>
+    <nav>
+        <span><a href="./gamelist.html">게임목록</a></span>
+        <span id="currentpage"><a href="./drink.html">음료</a></span>
+        <span><a href="./reservation.html">방문예약</a></span>
+        <span><a href="./FAQ.html">FAQ</a></span>
+        <span><a href="./event.html">공지사항/이벤트</a></span>
+        <span><a href="./WayToCome.html">오시는 길</a></span>
+    </nav>
+</header>
+<br>
+<section>
+    <table>
+        <tr>
+            <th colspan="2">Coffee</th>
+            <th colspan="2">Non Coffee</th>
+            <th colspan="2">Smoothie</th>
+            <th>Beer</th>
+            <td class="price">기본</td>
+            <td class="price">빅사이즈</td>
+        </tr>
+        <tr>
+            <td>아메리카노(<span class="hot">hot</span>,<span class="ice">ice</span>)</td>
+            <td class="price">3.8</td>
+            <td>유기농잎차(<span class="hot">hot</span>,<span class="ice">ice</span>)</td>
+            <td class="price">4.3</td>
+            <td>과일 스무디(딸기,키위/망고/블루베리)</td>
+            <td class="price">5.0</td>
+            <td>카스 / 클라우드</td>
+            <td class="price">5.0</td>
+            <td class="price">6.0</td>
+        </tr>
+        <tr>
+            <td>카페라떼(<span class="hot">hot</span>,<span class="ice">ice</span>)</td>
+            <td class="price">4.3</td>
+            <td>홍차(<span class="hot">hot</span>,<span class="ice">ice</span>)</td>
+            <td class="price">4.3</td>
+            <td>코코넛커피스무디 / 모카스무디 / 카라멜스무디</td>
+            <td class="price">5.5</td>
+            <td>버드와이저 / 호가든</td>
+            <td class="price">5.5</td>
+            <td class="price">6.5</td>
+        </tr>
+        <tr>
+            <td>바닐라라떼(<span class="hot">hot</span>,<span class="ice">ice</span>)</td>
+            <td class="price">4.8</td>
+            <td>밀크티(<span class="hot">hot</span>,<span class="ice">ice</span>)</td>
+            <td class="price">4.8</td>
+            <td>요거트 스무디</td>
+            <td class="price">5.5</td>
+            <td>아사이 / KGB레몬 / 1664블랑</td>
+            <td class="price">6.0</td>
+            <td class="price">X</td>
+        </tr>
+        <tr>
+            <td>헤이즐넛라떼(<span class="hot">hot</span>,<span class="ice">ice</span>)</td>
+            <td class="price">4.8</td>
+            <td>아이스티(<span class="ice">ice</span>)</td>
+            <td class="price">3.8</td>
+            <td>쿠앤크스무디 / 자바칩스무디 / 초코스무디</td>
+            <td class="price">5.5</td>
+            <td>호로요이(화이트사워)</td>
+            <td class="price">6.0</td>
+            <td class="price">X</td>
+        </tr>
+        <tr>
+            <td>카페모카(<span class="hot">hot</span>,<span class="ice">ice</span>)</td>
+            <td class="price">4.8</td>
+            <td>초코라떼/그린티라떼/단호박라떼/군고무라떼(<span class="hot">hot</span>,<span class="ice">ice</span>)</td>
+            <td class="price">4.8</td>
+            <td>민트초코스무디 / 그린티스무디 / 단호박 스무디</td>
+            <td class="price">5.5</td>
+            <td>코젤 다크 / 썸머스비 / 애플</td>
+            <td class="price">X</td>
+            <td class="price">7.0</td>
+        </tr>
+        <tr>
+            <td>카라멜마끼아또(<span class="hot">hot</span>,<span class="ice">ice</span>)</td>
+            <td class="price">4.8</td>
+            <td>상큼레몬차 / 상큼자몽차(<span class="hot">hot</span>)</td>
+            <td class="price">4.3</td>
+            <td colspan="2" rowspan="3"><img src="../assets/popcorn.png" alt="팝콘"></td>
+            <td colspan="3" rowspan="3">
+                <table>
+                    <th colspan="2">Snack</th>
+                    <tr>
+                        <td>봉지과자(양파링/바나나킥/포카칩/꼬깔콘/홈런볼)</td>
+                        <td class="price">2.0</td>
+                    </tr>
+                    <tr>
+                        <td>프링글스(대)</td>
+                        <td class="price">3.5</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>샷그린티라떼(<span class="ice">ice</span>)</td>
+            <td class="price">5.0</td>
+            <td>상큼과일에이드(<span class="ice">ice</span>)</td>
+            <td class="price">4.8</td>
+        </tr>
+        <tr>
+            <td colspan="2"><p>아메리카노 사이즈업+1.0 샷추가+0.5 <br> 카페라떼 사이즈업+1.5 시럽추가+0.5</p></td>
+        </tr>
+    </table>
+    <p>
+    <center>음료 주문은 매장에서 부탁드립니다.</center>
+    </p>
+</section>
+<br>
+<footer>
+    <table class="ftable">
+        <br><br>
+        <tr>
+            <th id="title">과기대보드게임 카페</th>
+            <td id="things" style="font-size: 15px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="../index.html" style="text-decoration: none; color:black"> &nbsp;연구원 소개&nbsp;</a> | <a
+                        href="service.html" style="text-decoration: none; color:black">&nbsp;이용약관&nbsp;</a> | <a
+                        href="https://www.instagram.com/?hl=ko" style="text-decoration: none; color:black">&nbsp;인스타그램&nbsp; </a>
+                | <a href="https://www.facebook.com/?ref=logo" style="text-decoration: none; color:black">&nbsp;페이스북&nbsp; </a>
+                | <a href="https://www.youtube.com/?gl=KR&hl=ko" style="text-decoration: none; color:black"> &nbsp;유튜브&nbsp; </a>
+            </td>
+        </tr>
+    </table>
+    <br><br>
+    <div class="under">
+        과기대보드게임 주식회사 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;대표자 : 김재수
+        <br><br>
+        (01811) 서울시 노원구 공릉로 232 서울과학기술대학교<br>
+        SEOUL NATIONAL UNIVERSITY OF SCIENCE AND TECHNOLOGY_BOARDGAME_CAFE
+    </div>
+    <div class="images">
+        <a href="https://www.facebook.com/?ref=logo"><img src="../assets/facebook.png" alt="페이스북으로 이동" width="40px"
+                                                          height="40px"></a>
+        <a href="https://www.youtube.com/?gl=KR&hl=ko"><img src="../assets/youtube.png" alt="유튜브로이동" width="40px"
+                                                            height="40px"></a>
+        <a href="https://www.instagram.com/?hl=ko"><img src="../assets/in.png" alt="인스타그램으로 이동" width="40px"
+                                                        height="40px"></a>
+    </div>
+    <div class="seoultech"><strong>
+        SEOULTECH<BR>
+        &nbsp;&nbsp;&nbsp;&nbsp;BOARDGAME</strong>
+    </div>
+</footer>
+</body>
 </html>

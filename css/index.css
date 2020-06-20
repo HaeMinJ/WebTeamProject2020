@@ -1,126 +1,187 @@
-body {
-    text-align: center;
+#navintro {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 597px;
+
+    background: #E6DAD4;
 }
 
-.hoverTab div{
-    display: inline-block;
-}
-.wrapper {
-    width: 1301px;
-    margin-top: 32px;
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-}
-.logo {
-    position: relative;
-}
-header {
-    text-align: center;
-    width: 1160px;
-    height: auto;
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-}
-aside div {
-    height: 276px;
-    text-align: left;
-    padding: 12px;
-}
+#intro {
+    position: absolute;
+    width: 1234px;
+    height: 289px;
+    left: 52px;
+    top: 87px;
 
-.aside_text {
-    position: relative;
     font-family: Roboto;
     font-style: normal;
-    font-size: 24px;
-    font-weight: 520;
-    color: #000000;
-}
-section {
-    position: relative;
-}
-article {
-    float: left;
-}
-article img {
-    width: 900px;
-    height: 600px;
-}
-aside {
-    width: 400px;
-    height: 600px;
-    background: #FFFFFF;
-    float: right;
-}
-body {
-    height: 100%;
-    background-color: #C1ACA0;
-    position: relative;
-}
-#text_header {
-    width: 478px;
-    height: 181px;
-    margin-top: 78px;
-}
-#rect1 {
-    position: absolute;
-    width: 265px;
-    height: 266px;
-    left: 0;
-    top: 41px;
-}
-#rect2 {
-    position: absolute;
-    width: 252.1px;
-    height: 232.73px;
-    left: 1000px;
-    top: -32px;
-}
-#tab {
-    width: 1301px;
-    position: relative;
-    line-height: 74px;
-    max-lines: 1;
-    background: #FFFFFF;
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-#tab_menu {
-    position: relative;
-    width: 212px;
-
-    line-height: 74px;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 76px;
     text-align: center;
-    display: inline-block;
-    color: #000000;
+}
+
+#section {
+    border-radius: 0px;
+    position: absolute;
+    top: 600px;
+    width: 100%;
+    height: 3182px;
+    background-color: white;
+    text-align: center;
+}
+
+#team {
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 441px;
+    height: 444px;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
-}
-#tab_item {
-    position: relative;
-    width: 212px;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
 
-    text-align: center;
-    display: inline-block;
     color: #000000;
-    line-height: 50px;
-    height: 300px;
-    vertical-align: top;
 }
-.hoverMenu{
 
-    color: white;
+#name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+}
+
+#surprised {
+    position: absolute;
+    left: 993px;
+    right: 139.56px;
+    top: 318px;
+    bottom: 79px
+}
+
+#circle1 {
+    border-radius: 265px;
+    display: inline-block;
+    position: absolute;
+    width: 534px;
+    height: 530px;
+    top: 177px;
+    left: 62px;
+
+
+    background: rgba(255, 223, 223, 0.85);
+}
+
+#circle2 {
+    border-radius: 265px;
+    display: inline-block;
+    position: absolute;
+    width: 534px;
+    height: 530px;
+    left: 696px;
+    top: 177px;
+
+    background: rgba(255, 223, 223, 0.85);
+}
+
+#circle3 {
+    border-radius: 265px;
+    display: inline-block;
+    position: absolute;
+    width: 534px;
+    height: 530px;
+    left: 74px;
+    top: 841px;
+
+    background: rgba(255, 223, 223, 0.85);
+}
+
+#circle4 {
+    border-radius: 265px;
+    display: inline-block;
+    position: absolute;
+    width: 534px;
+    height: 530px;
+    left: 693px;
+    top: 841px;
+
+    background: rgba(255, 223, 223, 0.85);
+}
+
+#circle5 {
+    border-radius: 265px;
+    display: inline-block;
+    position: absolute;
+    width: 534px;
+    height: 530px;
+    left: 381px;
+    top: 1507px;
+    bottom: 739px;
+    right: 423px;
+
+    background: rgba(255, 223, 223, 0.85);
+}
+
+footer {
+    position: absolute;
+    top: 3182px;
+    width: 100%;
+    height: 210px;
+
+    background: #E6DAD4;
+}
+
+#slogo {
+    position: absolute;
+    top: 0px;
+    left: 519px;
+    height: 35px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#logoshape {
+    position: absolute;
+    left: 558px;
+    top: 2333px;
+}
+
+#add {
+    position: absolute;
+    height: 25px;
+    left: 322px;
+    top: 100px;
+
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
-    height: 24px;
+    font-size: 23px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+#click {
+    position: absolute;
+    top: 2445px;
+    left: 804px;
 }

@@ -1,25 +1,31 @@
-th{
+th {
     text-align: left;
-    font-size: 300%;   
+    font-size: 300%;
 }
-td{
+
+td {
     padding-top: 0.5em;
 }
-td.price{
+
+td.price {
     padding-left: 1.3em;
     padding-right: 1.3em;
 }
-span.hot{
+
+span.hot {
     color: red;
 }
-span.ice{
+
+span.ice {
     color: skyblue;
 }
-section{
+
+section {
     align-items: center;
     min-width: 1440px;
 }
-table p{
+
+table p {
     background-color: orange;
     border-radius: 20px;
     text-align: center;

@@ -1,0 +1,142 @@
+body {
+    text-align: center;
+}
+
+.hoverTab div {
+    display: inline-block;
+}
+
+.wrapper {
+    width: 1301px;
+    margin-top: 32px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.logo {
+    position: relative;
+}
+
+header {
+    text-align: center;
+    width: 1160px;
+    height: auto;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+aside div {
+    height: 276px;
+    text-align: left;
+    padding: 12px;
+}
+
+.aside_text {
+    position: relative;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 520;
+    color: #000000;
+}
+
+section {
+    position: relative;
+}
+
+article {
+    float: left;
+}
+
+article img {
+    width: 900px;
+    height: 600px;
+}
+
+aside {
+    width: 400px;
+    height: 600px;
+    background: #FFFFFF;
+    float: right;
+}
+
+body {
+    height: 100%;
+    background-color: #C1ACA0;
+    position: relative;
+}
+
+#text_header {
+    width: 478px;
+    height: 181px;
+    margin-top: 78px;
+}
+
+#rect1 {
+    position: absolute;
+    width: 265px;
+    height: 266px;
+    left: 0;
+    top: 41px;
+}
+
+#rect2 {
+    position: absolute;
+    width: 252.1px;
+    height: 232.73px;
+    left: 1000px;
+    top: -32px;
+}
+
+#tab {
+    width: 1301px;
+    position: relative;
+    line-height: 74px;
+    max-lines: 1;
+    background: #FFFFFF;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#tab_menu {
+    position: relative;
+    width: 212px;
+
+    line-height: 74px;
+    text-align: center;
+    display: inline-block;
+    color: #000000;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#tab_item {
+    position: relative;
+    width: 212px;
+
+    text-align: center;
+    display: inline-block;
+    color: #000000;
+    line-height: 50px;
+    height: 300px;
+    vertical-align: top;
+}
+
+.hoverMenu {
+
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    height: 24px;
+}

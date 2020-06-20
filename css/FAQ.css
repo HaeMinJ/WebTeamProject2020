@@ -1,44 +1,46 @@
-#table{
+#table {
     width: 90%;
     margin: auto;
     border: 1px solid #C1ACA0
 }
 
-#th{
+#th {
     height: 30px;
-    background-color:  #C1ACA0;
+    background-color: #C1ACA0;
     padding: 10px;
     border: 1px solid #C1ACA0
 }
-#td{
+
+#td {
     height: 30px;
     padding: 10px;
     border: 1px solid #C1ACA0
 }
 
-#div{
+#div {
     width: 88%;
-height: 281px;
-padding: 10px;
-margin: auto;
+    height: 281px;
+    padding: 10px;
+    margin: auto;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 28px;
-display: flex;
-align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
 }
 
-a{  
+a {
 
     height: 100%;
 
     color: black;
-  text-decoration: none;  
+    text-decoration: none;
 }
-a:visited{
+
+a:visited {
 
     color: black;
     font-size: 10px;
