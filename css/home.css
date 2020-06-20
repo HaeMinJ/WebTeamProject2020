@@ -141,7 +141,7 @@ footer{position: absolute;
 
 #add{position: absolute;
      height: 25px;
-     left: 322px;
+     left: 210px;
      top: 100px;
      
      font-family: Roboto;
@@ -156,4 +156,22 @@ footer{position: absolute;
      color: #000000;}
 #click{position: absolute;
      top: 2445px;
-     left: 804px;}
+     left: 804px;
+     font-size: 30px;
+}
+
+#gohomepage{
+    position: relative;
+     width: 1234px;
+     height: 289px;
+     top : 2050px;
+     
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 55px;
+     line-height: 64px;
+     text-align: center;
+     
+     color: #000000;
+}
